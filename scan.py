@@ -634,7 +634,7 @@ def getWeather():
     loadingstage=1
     
     global headlines
-    weatherendpoint4 = f'https://api.weather.com/v3/wx/forecast/hourly/2day?geocode={coords}&units={unites}&language={locl}&format=json&format=json&apiKey={apikey}'
+    weatherendpoint4 = f'https://api.weather.com/v3/wx/forecast/hourly/2day?geocode={coords}&units={unites}&language={locl}&format=json&apiKey={apikey}'
     observationend = f"https://api.weather.com/v3/wx/observations/current?geocode={coords}&units={unites}&language={locl}&format=json&apiKey={apikey}"
     
     global weather2 # current
@@ -1018,7 +1018,7 @@ def refreshWeather():
     headlineend = forecastoffice + "/headlines"
     global headlines
     weatherendpoint3 = weatherend["properties"]["forecastHourly"]
-    weatherendpoint4 = f'https://api.weather.com/v3/wx/forecast/hourly/2day?geocode={coords}&units={unites}&language={locl}&format=json&format=json&apiKey={apikey}'
+    weatherendpoint4 = f'https://api.weather.com/v3/wx/forecast/hourly/2day?geocode={coords}&units={unites}&language={locl}&format=json&apiKey={apikey}'
     observationend = f"https://api.weather.com/v3/wx/observations/current?geocode={coords}&units={unites}&language={locl}&format=json&apiKey={apikey}"
     print(observationend)
     stationname = "Temporary"
